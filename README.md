@@ -16,17 +16,17 @@ Legible and English annotations are filtered out.
 Augmentations are als carried out
 #### 2. Model training :
 Model is trained on COCO-Text 2017 dataset. It is then passed through a CRNN model with bidirectional LSTM.
-### Final Pipeline
+## Final Pipeline
 In final pipeline involves:
 1. Generating captions for images in the dataset.
 2. Detects and labels any text present in the image.
 3. Matching with text prompt using cosine similarity.
-###  Final Deliverable
+##  Final Deliverable
 The most relevant image related to the text prompt is displayed. The primary output of my project is a functional, integrated search system that combines object recognition, text recognition, and flexible search capabilities. This reduces dependency on keyword based searching and implements a hybrid approach.
-### TECH STACK
-## Programming Language
+## TECH STACK
+### Programming Language
 - **Python**
-## Libraries
+### Libraries
 - **TensorFlow**
 - **Keras** - High-level neural networks API running on top of TensorFlow
 - **MatplotLib** 
@@ -35,5 +35,5 @@ The most relevant image related to the text prompt is displayed. The primary out
 - **pickle**
 - **json**
 - **torch**
-### Environment
+## Environment
 Google Colab
